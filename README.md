@@ -1,4 +1,5 @@
-# MV
+# sgemm
+Just a practice.
 
-Try realizing MatMul in different language and on different platforms.
+For now the mm in intel get 53% performance over mkl_blas_sgemm with omp.
 
