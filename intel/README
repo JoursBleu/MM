@@ -3,6 +3,7 @@ This is a beta version.
 It is for Intel AVX512.
 
 icc mm.c -lmkl_rt -o mm
+icc mm.c -qopenmp -lmkl_rt -o mm
 
 ./mm
 
